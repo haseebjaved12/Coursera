@@ -1,2 +1,38 @@
-*/styles.css/*
+*/styles.css*/
 
+ .heading1{
+   text-align: center;
+   color: yellow;
+   
+ }
+
+ body{
+ 	background-color: pink;
+    
+ }
+
+    .container{
+    	display: flex;
+    	flex-direction: row;
+    	
+    	
+    }
+
+    .box-heading{
+    	border: 1px;
+    	background-color: yellow;
+    	position: absolute;
+    	top: 0;
+    	right: 0;
+    	margin: 0;
+    	padding: 5px;
+    }
+
+    .box{
+    	border: 2px;
+    	border-color: blue;
+          margin: 1px;
+          padding: 20px;
+          background-color: grey;
+          position: relative; 
+    }
