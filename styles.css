@@ -1,4 +1,12 @@
-*/styles.css*/
+     */styles.css*/
+
+
+ body{
+ 
+ 	background-color: black;
+    
+ }
+
 
  .heading1{
    text-align: center;
@@ -6,10 +14,7 @@
    
  }
 
- body{
- 	background-color: pink;
-    
- }
+
 
     .container{
     	display: flex;
@@ -36,3 +41,21 @@
           background-color: grey;
           position: relative; 
     }
+
+    /* Media Queries */
+@media screen and (max-width: 768px) {
+	.container {
+		flex-direction: column;
+	}
+	
+	.box {
+		margin: 10px;
+		padding: 10px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.box-heading {
+		position: static;
+	}
+}
